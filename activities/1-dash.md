@@ -408,6 +408,7 @@ width of '4' (as 3 x 4 = 12).
 </tr>
 </table>
 
+
 You can write all the code by adding it to the layout. However, to break up the code to try and make it easier to read,
 in the following steps each row and cell is defined in as separate variable, then the variables will be referenced from
 the app.layout.
@@ -557,7 +558,7 @@ html.Img(src=app.get_asset_url('map-placeholder.png'), className="img-fluid")
 # Column 2 children
 dbc.Card(
     [
-        dbc.CardImg(src="assets/logos/1960_Rome.png", top=True),
+        dbc.CardImg(src="assets/logos/1960_Rome.jpg", top=True),
         dbc.CardBody(
             [
                 html.H4("TownName 2026", className="card-title"),

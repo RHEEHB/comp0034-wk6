@@ -1,0 +1,1 @@
+python src/paralympics_dash/paralympics_dash.py
